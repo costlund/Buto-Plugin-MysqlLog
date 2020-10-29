@@ -1,12 +1,17 @@
-version: '1.0'
+version: 1.0.1
 history:
-  '1.0':
+  1.0.1:
+    date: '2020-10-28'
+    title: 'Readme'
+    description: 'Manifest and Readme update.'
+  1.0.0:
     date: '2019-02-26'
+    title: 'Manifest'
     description: 'Manifest created.'
 plugin:
   -
     name: wf/mysql
-    version: 1.4.1
+    version: 1.12.0
 sys:
   -
     name: mercury
@@ -16,3 +21,8 @@ php:
   - '7.2'
 author: null
 description: ''
+future:
+  -
+    date: '2020-10-06'
+    title: 'Clean up'
+    description: 'Add page to clean up old posts via cron script.'
