@@ -2,16 +2,16 @@ version: 1.0.1
 history:
   1.0.1:
     date: '2020-10-28'
-    title: 'Readme'
+    title: Readme
     description: 'Manifest and Readme update.'
   1.0.0:
     date: '2019-02-26'
-    title: 'Manifest'
+    title: Manifest
     description: 'Manifest created.'
 plugin:
   -
     name: wf/mysql
-    version: 1.12.0
+    version: 1.13.0
 sys:
   -
     name: mercury
