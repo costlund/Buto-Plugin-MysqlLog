@@ -1,5 +1,14 @@
-version: 1.0.1
+version: 1.1.0
 history:
+  1.1.0:
+    date: '2022-06-29'
+    title: Date types
+    description: 'Change data types from TIMESTAMP to DATETIME to handle time zone better. Otherwize server system time will be used.'
+    webmaster: |
+      SQL to change current database.      
+      ALTER TABLE mysql_log_log 
+      CHANGE COLUMN created_at created_at DATETIME NULL DEFAULT CURRENT_TIMESTAMP ,
+      CHANGE COLUMN updated_at updated_at DATETIME NULL DEFAULT NULL ;
   1.0.1:
     date: '2020-10-28'
     title: Readme
