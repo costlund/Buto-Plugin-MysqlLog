@@ -1,5 +1,9 @@
-version: 1.1.1
+version: 1.1.2
 history:
+  1.1.2:
+    date: '2023-02-06'
+    title: Readme
+    description: 'Readme update about schema.'
   1.1.1:
     date: '2023-01-02'
     title: Versions

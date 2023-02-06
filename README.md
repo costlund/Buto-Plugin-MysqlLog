@@ -30,3 +30,6 @@ $mysql->event = false;
   */
 $mysql->open($data->get('settings/mysql'));
 ```
+
+## Schema
+- /plugin/mysql/log/sql/schema.yml
