@@ -13,9 +13,9 @@ class PluginMysqlLog{
      * Only log insert, update, delete.
      */
     if(
-            strtolower(substr($sql_script, 0, 12)) !='insert into ' && 
-            strtolower(substr($sql_script, 0, 7))  !='update ' && 
-            strtolower(substr($sql_script, 0, 12)) !='delete from '
+            strtolower(wfPhpfunc::substr($sql_script, 0, 12)) !='insert into ' && 
+            strtolower(wfPhpfunc::substr($sql_script, 0, 7))  !='update ' && 
+            strtolower(wfPhpfunc::substr($sql_script, 0, 12)) !='delete from '
             ){
       return null;
     }
